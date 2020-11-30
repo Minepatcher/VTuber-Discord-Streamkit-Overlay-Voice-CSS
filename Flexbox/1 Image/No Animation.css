@@ -1,0 +1,11 @@
+/***Option 1: Image w/o Animation***/
+/**User**/
+li.voice-state:not([data-reactid*="UserID"]) { display:none; }
+/**Avatar**/
+.avatar { content:url(ImageURL); }
+body { overflow:hidden; } /*Hide Scrollbars*/
+.voice-container .voice-states { margin:0; padding:0; } /*Removal*/
+.voice-container .voice-states .voice-state { height:auto; display:flex; justify-content:center; } /*Flex Setup*/
+.voice-container .voice-states .voice-state .avatar { margin:0; width:auto; height:auto; border:0; border-radius:0; float:none; filter:brightness(50%); } /*Avatar CSS*/
+.voice-container .voice-states .voice-state .avatar.speaking { filter:brightness(100%); } /*Speaking CSS*/
+.voice-container .voice-states .voice-state .user { position:absolute; bottom:3%; } /*Username CSS*/
