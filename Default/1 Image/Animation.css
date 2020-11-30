@@ -1,6 +1,6 @@
-/*Option 2: Image w/ Animation*/
-/*User*/li.voice-state:not([data-reactid*="UserID"]) { display:none; }
-/*Avatar*/.avatar { content:url(ImageURL); }
+/***Image w/ Animation***/
+/**User**/li.voice-state:not([data-reactid*="UserID"]) { display:none; }
+/**Avatar**/.avatar { content:url(ImageURL); }
 /*Hide Scrollbars*/body { overflow:hidden; }
 /*Removal*/.voice-container .voice-states { margin:0; padding:0; }
 /*Avatar CSS*/.voice-container .voice-states .voice-state .avatar { width:auto; height:auto; border:0; border-radius:0; filter:brightness(50%); }
