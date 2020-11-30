@@ -1,4 +1,4 @@
-/***Option 3: Two Images w/o Animation***/
+/***Two Images w/o Animation***/
 /**User**/
 li.voice-state:not([data-reactid*="UserID"]) { display:none; }
 /**Avatar**/
