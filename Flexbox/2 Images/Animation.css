@@ -5,10 +5,17 @@ li.voice-state:not([data-reactid*="UserID"]) { display:none; }
 .avatar { content:url(ImageURL); }
 /**Speaking**/
 .speaking { content:url(ImageURL); }
-body { overflow:hidden; } /*Hide Scrollbars*/
-.voice-container .voice-states { margin:0; padding:0; } /*Removal*/
-.voice-container .voice-states .voice-state { height:auto; display:flex; justify-content:center; } /*Flex Setup*/
-.voice-container .voice-states .voice-state .avatar { margin:0; width:auto; height:auto; border:0; border-radius:0; float:none; filter:brightness(50%); } /*Avatar CSS*/
-.voice-container .voice-states .voice-state .avatar.speaking { filter:brightness(100%); } /*Speaking CSS*/
-.voice-container .voice-states .voice-state .user { position:absolute; bottom:3%; } /*Username CSS*/
-@keyframes speak-now { 15%{ bottom:3px; } 30%{ bottom:0px; } } /*Animation*/
+/*Hide Scrollbars*/
+body { overflow:hidden; }
+/*Removal*/
+.voice-container .voice-states { margin:0; padding:0; }
+/*Flex Setup*/
+.voice-container .voice-states .voice-state { height:auto; display:flex; justify-content:center; }
+/*Avatar CSS*/
+.voice-container .voice-states .voice-state .avatar { margin:0; width:auto; height:auto; max-height:600px; border:0; border-radius:0; float:none; filter:brightness(50%); }
+/*Speaking CSS*/
+.voice-container .voice-states .voice-state .avatar.speaking { filter:brightness(100%); }
+/*Username CSS*/
+.voice-container .voice-states .voice-state .user { position:absolute; bottom:3%; }
+/*Animation*/
+@keyframes speak-now { 15%{ bottom:3px; } 30%{ bottom:0px; } }
