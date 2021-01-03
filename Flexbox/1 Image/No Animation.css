@@ -10,7 +10,7 @@ body { overflow:hidden; }
 /*Flex Setup*/
 .voice-container .voice-states .voice-state { height:auto; display:flex; justify-content:center; }
 /*Avatar CSS*/
-.voice-container .voice-states .voice-state .avatar { margin:0; width:auto; height:auto; max-height:600px; border:0; border-radius:0; float:none; filter:brightness(50%); }
+.voice-container .voice-states .voice-state .avatar { margin:0; width:auto; height:auto; border:0; border-radius:0; float:none; filter:brightness(50%); }
 /*Speaking CSS*/
 .voice-container .voice-states .voice-state .avatar.speaking { filter:brightness(100%); }
 /*Username CSS*/
