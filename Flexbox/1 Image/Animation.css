@@ -1,6 +1,6 @@
 /***Image w/ Animation***/
 /**User**/
-li.voice-state:not([data-reactid*="UserID"]) { display:none; }
+.voice-container .voice-states .voice-state:not([data-reactid*="UserID"]) { display:none; }
 /**Avatar**/
 .avatar { content:url(ImageURL); }
 /*Hide Scrollbars*/
