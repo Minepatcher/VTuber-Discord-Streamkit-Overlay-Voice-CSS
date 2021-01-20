@@ -1,6 +1,6 @@
 /***Two Images w/o Animation***/
 /**User**/
-.voice-container .voice-states .voice-state:not([data-reactid*="455975681633812501"]) { display:none; }
+.voice-container .voice-states .voice-state:not([data-reactid*="UserID"]) { display:none; }
 /**Avatar**/
 .avatar { content:url(ImageURL); }
 /**Speaking**/
