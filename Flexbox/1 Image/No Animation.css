@@ -1,17 +1,17 @@
 /***Image w/o Animation***/
 /**User**/
-.voice-container .voice-states .voice-state:not([data-reactid*="UserID"]) { display:none; }
+.Voice_voiceContainer__adk9M .Voice_voiceStates__a121W .Voice_voiceState__OCoZh:not([data-reactid*="UserID"]) { display:none; } /** Broken **/
 /**Avatar**/
-.avatar { content:url(ImageURL); }
+.Voice_avatar__htiqH { content:url(ImageURL); }
 /*Hide Scrollbars*/
 body { overflow:hidden; }
 /*Removal*/
-.voice-container .voice-states { margin:0; padding:0; }
+.Voice_voiceContainer__adk9M .Voice_voiceStates__a121W { margin:0; padding:0; }
 /*Flex Setup*/
-.voice-container .voice-states .voice-state { height:auto; display:flex; justify-content:center; }
+.Voice_voiceContainer__adk9M .Voice_voiceStates__a121W .Voice_voiceState__OCoZh { height:auto; display:flex; justify-content:center; }
 /*Avatar CSS*/
-.voice-container .voice-states .voice-state .avatar { margin:0; width:auto; height:auto; border:0; border-radius:0; float:none; filter:brightness(50%); }
+.Voice_voiceContainer__adk9M .Voice_voiceStates__a121W .Voice_voiceState__OCoZh .Voice_avatar__htiqH { margin:0; width:auto; height:auto; border:0; border-radius:0; float:none; filter:brightness(50%); }
 /*Speaking CSS*/
-.voice-container .voice-states .voice-state .avatar.speaking { filter:brightness(100%); }
+.Voice_voiceContainer__adk9M .Voice_voiceStates__a121W .Voice_voiceState__OCoZh .Voice_avatar__htiqH.Voice_avatarSpeaking__lE\+4m { filter:brightness(100%); }
 /*Username CSS*/
-.voice-container .voice-states .voice-state .user { position:absolute; bottom:3%; }
+.Voice_voiceContainer__adk9M .Voice_voiceStates__a121W .Voice_voiceState__OCoZh .Voice_user__8fGwX { position:absolute; bottom:3%; }
