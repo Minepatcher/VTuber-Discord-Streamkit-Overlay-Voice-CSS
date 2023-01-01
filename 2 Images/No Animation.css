@@ -6,7 +6,7 @@
 /*Center Image*/ html { height:100%; justify-content:center; }
 /*Hide Scrollbars*/ body { overflow:hidden; }
 /*List CSS*/ ul[class*="voiceStates"] { padding-inline:0; margin-block:0; }
-/*List Item CSS*/ li[class*="voiceState"] { flex-direction:column; justify-content:flex-end; align-items:center; margin:0; height:unset; }
+/*List Item CSS*/ li[class*="voiceState"] { flex-direction:column; align-items:center; margin:0; height:unset; }
 /*Avatar CSS*/ img[class*="avatar"] { width:100%; height:auto; border:0; border-radius:0; margin:0; float:unset; filter:brightness(50%); transition: all 0.2s ease-in-out; }
 /*Speaking CSS*/ img[class*="avatarSpeaking"] { filter:brightness(95%); }
-/*Username CSS*/ div[class*="user"] {position:absolute; text-align:center; padding:0;} span[class*="name"] { margin-bottom: 0.5em; }
+/*Username CSS*/ div[class*="user"] {position:absolute; text-align:center; padding:0; bottom:0; } span[class*="name"] { margin-bottom: 0.5em; }
