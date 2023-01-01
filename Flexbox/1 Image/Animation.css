@@ -1,19 +1,11 @@
 /***Image w/ Animation***/
-/**User**/
-.voice-container .voice-states .voice-state:not([data-reactid*="UserID"]) { display:none; }
-/**Avatar**/
-.avatar { content:url(ImageURL); }
-/*Hide Scrollbars*/
-body { overflow:hidden; }
-/*Removal*/
-.voice-container .voice-states { margin:0; padding:0; }
-/*Flex Setup*/
-.voice-container .voice-states .voice-state { height:auto; display:flex; justify-content:center; }
-/*Avatar CSS*/
-.voice-container .voice-states .voice-state .avatar { margin:0; width:auto; height:auto; border:0; border-radius:0; float:none; filter:brightness(50%); }
-/*Speaking CSS*/
-.voice-container .voice-states .voice-state .avatar.speaking { filter:brightness(100%); }
-/*Username CSS*/
-.voice-container .voice-states .voice-state .user { position:absolute; bottom:3%; }
-/*Animation*/
-@keyframes speak-now { 15%{ bottom:3px; } 30%{ bottom:0px; } }
+/*User*/ img:not([src*='UserID']), img:not([src*='UserID']) + div  { display:none; }
+/*Avatar*/ img[class*="avatar"] { content:url("ImageURL"); }
+/*Flex Set*/ html, body, img, div, span, ul, li { display:flex; }
+/*Center Image*/ html { height:100%; justify-content:center; }
+/*Hide Scrollbars*/ body { overflow:hidden; }
+/*List CSS*/ ul[class*="voiceStates"] { padding-inline:0; margin-block:0; }
+/*List Item CSS*/ li[class*="voiceState"] { flex-direction:column; justify-content:flex-end; align-items:center; margin:0; height:unset; }
+/*Avatar CSS*/ img[class*="avatar"] { width:100%; height:auto; border:0; border-radius:0; margin:0; float:unset; filter:brightness(50%); transition: all 0.2s ease-in-out; }
+/*Speaking CSS*/ img[class*="avatarSpeaking"] { filter:brightness(95%); }
+/*Username CSS*/ div[class*="user"] {position:absolute; text-align:center; padding:0;} span[class*="name"] { margin-bottom: 0.5em; }
