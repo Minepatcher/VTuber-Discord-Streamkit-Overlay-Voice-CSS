@@ -5,7 +5,7 @@
 /*Flex Set*/ html, body, img, div, span, ul, li { display:flex; }
 /*Center Image*/ html { height:100%; justify-content:center; }
 /*Hide Scrollbars*/ body { overflow:hidden; }
-/*List CSS*/ ul[class*="voiceStates"] { padding-inline:0; margin-block:0; }
+/*List CSS*/ ul[class*="voiceStates"] { padding-inline:0; margin-block:0; margin-top: 5px; }
 /*List Item CSS*/ li[class*="voiceState"] { flex-direction:column; align-items:center; margin:0; height:unset; }
 /*Avatar CSS*/ img[class*="avatar"] { width:100%; height:auto; border:0; border-radius:0; margin:0; float:unset; filter:brightness(50%); transition: all 0.2s ease-in-out; }
 /*Speaking CSS*/ img[class*="avatarSpeaking"] { position:relative; animation:speak-now 0.2s; filter:brightness(95%); }
