@@ -13,3 +13,4 @@ This page is for VTubers that are looking for a simple CSS to use for Collaborat
    1. Adjust the *height* or *width* of the image as desired/needed.
 ![Screenshot_2](https://user-images.githubusercontent.com/75279703/210185348-3b0f06ea-745a-449c-abd0-923f2a3fde66.png)
 
+**P.S. Once *:has* selector is added to the browser source, I will update the CSS to use it. if they ever update it that is...** 🥲
