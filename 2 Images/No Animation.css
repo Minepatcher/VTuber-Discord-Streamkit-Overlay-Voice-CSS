@@ -1,5 +1,5 @@
 /***Two Images w/o Animation***/
-/*User*/ img:not([src*='UserID']), img:not([src*='UserID']) + div  { display:none; }
+/*User*/ li:not([data-userid='UserID']) { display:none; }
 /*Avatar*/ img[class*="avatar"] { content:url("ImageURL"); }
 /*Speaking*/ img[class*="avatarSpeaking"] { content:url("ImageURL2"); }
 /*Flex Set*/ html, body, img, div, span, ul, li { display:flex; }
