@@ -1,5 +1,5 @@
 /***Image w/ Animation***/
-/*User*/ img:not([src*='UserID']), img:not([src*='UserID']) + div  { display:none; }
+/*User*/ li:not([data-userid='UserID']) { display:none; }
 /*Avatar*/ img[class*="avatar"] { content:url("ImageURL"); }
 /*Flex Set*/ html, body, img, div, span, ul, li { display:flex; }
 /*Center Image*/ html { height:100%; justify-content:center; }
