@@ -11,6 +11,4 @@ This page is for VTubers that are looking for a simple CSS to use for Collaborat
 3. Input *UserID* and *ImageUrl(s)* into the CSS.
 4. Set the *height* & *width* of the broswer source to your image's height/width.
    1. Adjust the *height* or *width* of the image as desired/needed.
-![Screenshot_2](https://user-images.githubusercontent.com/75279703/210185348-3b0f06ea-745a-449c-abd0-923f2a3fde66.png)
-
-**P.S. Once *:has* selector is added to the browser source, I will update the CSS to use it. if they ever update it that is...** 🥲
+![screen](https://github.com/Minepatcher/VTuber-Discord-Streamkit-Overlay-Voice-CSS/assets/75279703/6468e6dc-9d05-42a9-8a3b-d518eb7301c3)
